@@ -24,7 +24,7 @@ namespace CapaLogica
         }
         #endregion singleton
 
-        
+
         public string GenerarNumeroBoleta2()
         {
             DatEvaluacionExterna ventaDAL = new DatEvaluacionExterna(); // Instanciamos la capa de datos
@@ -49,7 +49,7 @@ namespace CapaLogica
             // Generamos el número de boleta
             return r + reg.ToString();
         }
-        
+
 
 
         public string GenerarNumeroBoleta()
